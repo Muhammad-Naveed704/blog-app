@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogapp</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- bootstrap -->
+    <!-- <link rel="stylesheet" href="./bootstrap.css"> -->
+    <!-- fontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+</head>
+<body>
+
+    
+  <!-- navbar -->
+  <nav class="navbar">
+    <h5 class="navheading">Personal Blogging App</h5>
+    <div class="btn">
+       <h1 class="loginuser" id="userName">Muhammad Naveed</h1>
+      <a class="navbtn" id="logoutBtn" >Logout</a>     
+    </div>
+</nav>
+
+<!-- =========================MAIN SECTION START=============== -->
+<div class="mainsection">
+            <div class="dashboard">
+                <h4>Dashboard</h4>
+            </div>
+            <div class="main">
+                <div class="postsection">
+                    
+            <div class="inputsection">
+                
+              <input  class="firstpost " id="posttitle" type="search" placeholder="Enter Your Blog title">
+            </div>
+            <div class="inputsection">
+                <textarea class="postTextarea" placeholder="Enter Your Blog" id="postInput"  cols="30" rows="10"></textarea>  
+            </div>
+           
+            <div class="pBtn" ><button id="postBtn" class="postBtn">Publish Blog</button></div>
+        </div>
+        
+        <h5 class=" myblog"> My Blogs</h5>
+        <div class="postContentArea">
+        </div>
+        </div>
+        </div>
+                 <!-- =========================MAIN SECTION END=============== -->
+         
+         
+        
+         <script type="module" src="app.js"></script>
+        </body>
+</html>
