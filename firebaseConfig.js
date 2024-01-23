@@ -19,12 +19,7 @@ import {
   Timestamp,
 } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-firestore.js";
 const firebaseConfig = {
-  apiKey: "AIzaSyDafPlIC7Kj5t7HHSsOJXeNFD-uIm9opFY",
-  authDomain: "smit-hackathon-2894d.firebaseapp.com",
-  projectId: "smit-hackathon-2894d",
-  storageBucket: "smit-hackathon-2894d.appspot.com",
-  messagingSenderId: "673603256344",
-  appId: "1:673603256344:web:0a3860148e99ec5ea9036d"
+ 
 };
 
 const app = initializeApp(firebaseConfig);
